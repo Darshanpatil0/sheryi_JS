@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: "kajir"; */
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+#mine{
+    width: 100%;
+    height: 100vh;
+   
+}
+
+#back{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#back image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+   
+}
+
+#workingyeriya{
+    position: relative;
+    margin: 0 auto;
+    width: 80%;   
+    max-width: 1920px;
+    height: 100%;
+    /* border: 1px solid white; */
+    /* background-color: #888; */
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 0;
+    
+}
+
+#nav img{
+    height: 60px;
+}
+
+#nleft , #nright{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+#nav a{
+    cursor: pointer;
+    pointer-events: all;
+    font-family: "kajiro";
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;    
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif; 
+}
+
+#hero{
+    top: 50%;
+    left: 0;
+    transform: translate(0%,-50%);
+    position: absolute;
+    justify-content: space-between;
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: red; */
+    display: flex;
+}
+
+#hero-left{
+    width: 50%;
+    margin-top: 40px;
+    /* height: 100px; */
+    /* background-color: yellow; */
+}
+
+#hero-left .elem{
+     position: relative;
+    /* background-color: red; */
+    height: 9vw;
+    overflow: hidden;
+}
+
+#hero-left .elem h1:nth-child(1){
+    top: 0;
+}
+
+#hero-left .elem h1{
+    line-height: .9;
+    top: 100%;
+    left: 0;
+    color: white;
+    font-family: "kajiro";
+   position: absolute;
+    font-weight: 100;
+    font-size: 11vw;
+}
+
+#hero-left button{
+    cursor: pointer;
+    pointer-events: all;
+    font-family: "kajiro";
+    padding: .8vw 3vw;
+    font-size: 3vw;
+    margin-top: 2vw;
+    
+}
+
+#hero-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 20%;
+    color: white;
+    /* background-color: green; */
+}
+
+#hero-right p{
+    text-align: right;
+    font-size: 12.5px;
+    font-weight: 300;
+}
+
+#hero-right #imagediv{
+     width: 120%;
+     margin-bottom: 20px;
+     margin-top: 15px;
+    height: 170px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313_640.jpg");
+    background-size: cover;
+    background-position:  center;
+       /* background-color: red; */
+}
+
+#hero-right p:nth-child(3){
+    /* color: red; */
+    margin-bottom: 40px;
+}
+
+#back img{
+  
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
